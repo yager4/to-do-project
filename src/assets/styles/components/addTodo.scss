@@ -1,0 +1,11 @@
+.addTodo-container > :first-child {
+  width: 300px;
+  display: flex;
+}
+.addTodo-container {
+  display: flex;
+
+  & textarea {
+    min-width: 210px;
+  }
+}
